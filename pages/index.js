@@ -1,4 +1,5 @@
 import ContactSection from '../components/ContactSection'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import ProfileSection from '../components/Profile'
 import ProjectSection from '../components/SectionProjects'
@@ -12,6 +13,7 @@ export default function Home() {
       <SkillsSection />
       <ProjectSection />
       <ContactSection />
+      <Footer />
     </>
   )
 }

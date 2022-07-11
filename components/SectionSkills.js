@@ -4,7 +4,7 @@ import SkillCard from './SkillCard'
 
 export default function SectionSkills() {
   return (
-    <section className="py-28 bg-gray-skill">
+    <section className="py-28 bg-primary-gray">
       <div className="container mx-auto">
         <SectionTitle>Skills</SectionTitle>
         <SectionParagraph>Beberapa kemampuan saya.</SectionParagraph>

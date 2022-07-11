@@ -14,7 +14,11 @@ module.exports = {
         mono: ['IBM Plex Mono', 'ui-monospace'],
       },
       colors: {
-        'gray-skill': '#F7F7FB',
+        'primary-gray': {
+          DEFAULT: '#F7F7FB',
+          200: '#E8E8FB',
+          300: '#BFBFE3',
+        },
         yellow: {
           50: '#FFFDEB',
           100: '#FEFAD2',
@@ -41,9 +45,9 @@ module.exports = {
           'background-repeat': 'no-repeat',
           'background-size': 'cover',
         },
-        '.shadow-skill' : {
-          'box-shadow': '0px 15px 40px rgba(0, 0, 0, 0.1)'
-        }
+        '.shadow-skill': {
+          'box-shadow': '0px 15px 40px rgba(0, 0, 0, 0.1)',
+        },
       })
     }),
   ],
